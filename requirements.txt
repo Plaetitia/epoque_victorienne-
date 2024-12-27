@@ -2,17 +2,6 @@ streamlit
 streamlit-option-menu==0.3.2
 streamlit-authenticator
 
-# changer le fond de la page en beige
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #f5f5dc;  /* Couleur beige */
-    }
-    </style>
-    """, unsafe_allow_html=True
-)
-
 
 # code de la quête
 

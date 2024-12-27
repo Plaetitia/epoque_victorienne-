@@ -1,7 +1,7 @@
 import streamlit as st
 
 from streamlit_option_menu import option_menu
-import streamlit as st
+
 from streamlit_authenticator import Authenticate
 
 # changer le fond de la page en beige
@@ -50,7 +50,7 @@ if st.session_state["authentication_status"]:
 elif st.session_state["authentication_status"] is False:
     st.error("L'username ou le password est/sont incorrect")
 elif st.session_state["authentication_status"] is None:
-    st.warning('Les champs username et mot de passe doivent être remplie')
+    st.warning('Les champs username et mot de passe doivent être remplis')
 
 # Création du menu pour afficher les choix 
 selection = option_menu(
